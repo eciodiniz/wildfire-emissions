@@ -11,3 +11,7 @@ The input data are available on Zenodo: [DOI to be added].
 **[Emission Hotspots](Emission%20Hotspots)** contains the script that identifies hotspots of population-weighted emission potential for each pollutant. It combines the 1-ha emission points with census-block population, estimates a kernel density surface weighted by emission × population, and defines hotspots as the areas above the 90th percentile of density.
 
 **[Cumulative Exposure](Cumulative%20Exposure)** contains the script that assesses how the emission potential of each pollutant is distributed across the population of each study area. Using emissions and population aggregated by census block, it builds cumulative exposure (Lorenz) curves by ranking blocks from highest to lowest emission and plotting the cumulative share of population against the cumulative share of emission for each site.
+
+## How to cite
+
+Diniz, E. S. (2026). *Mapping potential multi-pollutant wildfire emissions and population exposure in R* (Version v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24369061
